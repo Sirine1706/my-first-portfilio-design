@@ -1,0 +1,61 @@
+*::after, *::before, *{
+    box-sizing: border-box;}
+.title {
+    text-transform: uppercase;
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+p {
+    width: 200px;
+    color: rgb(138, 140, 141);
+    font-size: 24px;
+    font-family: sans-serif;;
+}
+body {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+}
+.img1 {
+    float: left;
+    width: 150px;
+    height: 125px;
+}
+.img2 {
+     float: left;
+     position: absolute;
+     right: 575px;
+     top: 125px;
+     width: 125px;
+     height: 150px;
+}
+.text1 {
+    position:absolute;
+    left: 350px;
+    top: 250px;   
+}
+.text2 {
+    position:absolute;
+    right: 375px;
+    top: 250px;
+}
+.line {
+    border-left: 6px solid rgb(221, 216, 216);
+    height: 275px;
+    position: absolute;
+    left: -50px;
+    top: 30px;
+}
+.circle {
+       height: 50px;
+       width: 50px;
+       border: 2px;
+       border-radius: 50%;
+       background-color: grey;
+       position: absolute;
+       left: -70px;
+       bottom: -75px;
+}

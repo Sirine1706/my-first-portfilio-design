@@ -1,0 +1,57 @@
+*::after, *::before, *{
+    box-sizing: border-box;}
+.title {
+    font-family: Times, Times New Roman, serif;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.line {
+    position: absolute;
+    right: 731px;
+    background-color: black;
+    width: 175px;
+    height: 24px;
+}
+hr {
+    position: absolute;
+    left: 0px;
+    background-color: black;
+    width: 710px;
+    height: 4px;
+    border: 0;
+}
+.ensemble {
+    margin-top: 25px;
+}
+img {
+    margin-top: -40px;
+    margin-left: 125px;
+    float: left;
+    width: 275px;
+    height: 425px;
+    box-shadow: -50px 50px 0px rgba(136, 134, 134, 0.3);
+} 
+p , .share {
+    margin-top: 65px;
+    margin-left: 450px;
+    margin-right: 150px;
+    font-size: 32px;
+    color: rgb(129, 129, 129);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.logos {
+    display: flex;
+    float: right;
+    margin-right: 610px;
+}
+.part2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-left: 420px;
+}

@@ -1,0 +1,68 @@
+*::after, *::before, *{
+    box-sizing: border-box;}
+    .title {
+        font-family: "Gill Sans", sans-serif;
+        font-size: 87px;
+        text-transform: uppercase;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .line {
+        position: absolute;
+        left: 100px;
+        top: 175px;
+        background-color: black;
+        width: 250px;
+        height: 32px;
+    }
+    hr {
+        position: absolute;
+        left: 0px;
+        top: 8px;
+        background-color: black;
+        width: 710px;
+        height: 2px;
+        border: 0;
+    }
+    .flex {
+        display: flex;
+        gap: 200px;
+        position: absolute;
+        left: 100px;
+        top: 250px;
+    }
+form {
+    font-family:  sans-serif;
+    font-size: 24px;
+    color: rgb(197, 192, 192);
+}
+.texte {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: rgb(179, 171, 171);
+}
+input[type=text] {
+    max-width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #979292;
+    padding: 1px 275px;
+}
+input[type=email] {
+    max-width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #979292;
+    padding: 1px 275px;
+}
+input[type=button] {
+   background-color: black;
+   border-color: black;
+   font-size: 24px;
+   color: aliceblue;
+   width: 250px;
+   height: 50px;
+   position: absolute;
+   right: 3px;
+   text-align: center;
+}
